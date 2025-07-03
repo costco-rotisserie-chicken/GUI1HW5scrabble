@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!--
+Hector Vazquez
+Hector_Vazuez@student.uml.edu
+GUI 1, Summer 1 2025
+Homework 5
+index.html2
+-->
+  <head>
+    <title>One Line Scrabble</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <div id="board"> <!--Entire board-->
+        <div id="space1" class="board_space"></div> <!--make 15 board space containers-->
+        <div id="space2" class="board_space"></div>
+        <div id="space3" class="board_space"></div>
+        <div id="space4" class="board_space"></div>
+        <div id="space5" class="board_space"></div>
+        <div id="space6" class="board_space"></div>
+        <div id="space7" class="board_space"></div>
+        <div id="space8" class="board_space"></div>
+        <div id="space9" class="board_space"></div>
+        <div id="space10" class="board_space"></div>
+        <div id="space11" class="board_space"></div>
+        <div id="space12" class="board_space"></div>
+        <div id="space13" class="board_space"></div>
+        <div id="space14" class="board_space"></div>
+        <div id="space15" class="board_space"></div>
+    </div>
+    
+    
+    <div id="rack"></div><!--Space for rack-->
+    <div id="livescore">Current Word Score: 0</div> <!--score trackers-->
+    <div id="totalscore">Total: 0</div>
+    <button id="submitWord">Submit Word</button><!--buttons for player actions-->
+    <button id="drawNew">Draw More Tiles</button>
+    <button id="reset">Reset Game</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

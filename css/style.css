@@ -1,0 +1,34 @@
+/*
+Hector Vazquez
+Hector_Vazuez@student.uml.edu
+GUI 1, Summer 1 2025
+Homework 5
+style.css
+*/
+
+#board { /*makes board with 15 columns and 1 row, size hard-coded for the 1 row image*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1129px;
+    height: 80px;
+    background-image: url("../graphics_data/Scrabble_Board_OneLine.png");
+}
+
+.board_space{
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.tile{
+    height: 65px;
+    width: 65px;
+}
+
+#rack{ /*makes the rack 7 tiles long, though it will expand if somehow more than 7 tiles are available*/
+    min-width: 455px;
+    max-width: max-content;
+    height: 65px;
+    background-color: skyblue;
+}
